@@ -33,3 +33,14 @@ There is an input array and an input target int values.
 Program should find 2 indices for which values sum is equal to target.
 
 Starts from the first number, check if it sum with next value is equal to target; when array ends, start comparing for second number; and do it until there is end of the array.
+
+### Running Sum
+
+Time: 252 ms, faster than 40.90% of C# online submissions for Running Sum of 1d Array.
+
+Memory Usage: 30.7 MB, less than 100.00% of C# online submissions for Running Sum of 1d Array.
+
+Example:
+Input: nums = [1,2,3,4]
+Output: [1,3,6,10]
+Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
